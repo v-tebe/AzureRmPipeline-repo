@@ -26,8 +26,8 @@
       }
     },
     "variables": {
-      "storageAccountName": "[concat(parameters('projectName'), uniqueString(resourceGroup().id))]",
-      "webAppName": "[concat(parameters('projectName'), 'WebApp')]",
+      "storageAccountName": "[concat(parameters('projectName'))]",
+      "webAppName": "[concat(parameters('projectName'), 'WebApp123')]",
       "appServicePlanName": "[concat(parameters('projectName'), 'Plan')]"
     },
     "resources": [
